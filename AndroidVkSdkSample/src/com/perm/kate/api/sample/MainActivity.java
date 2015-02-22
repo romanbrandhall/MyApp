@@ -135,6 +135,7 @@ public class MainActivity extends Activity {
 		for(int i1=0;i1<NcircleMaxInt;i1++){
 			currUsersReal.clear();
 			currUsers.clear();
+            //
 			try{
 				currUsers = api.searchUser(Constants.q, Constants.fields, Count, Constants.offset,Constants.sort,
 									   Constants.city,Constants.country,Constants.hometown,
