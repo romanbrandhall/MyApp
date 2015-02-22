@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2101291-559d-4db9-836b-79bbf48cc7ea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java" afterPath="$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android-VKontakte-SDK.iws" />
@@ -99,8 +100,13 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="19" selection-start="908" selection-end="908" vertical-scroll-proportion="0.47663552" vertical-offset="153" max-vertical-offset="5338">
-              <folding />
+            <state line="36" column="26" selection-start="932" selection-end="932" vertical-scroll-proportion="0.5956873" vertical-offset="102" max-vertical-offset="5321">
+              <folding>
+                <element signature="e#3197#3213#0" expanded="true" />
+                <element signature="e#3642#3648#0" expanded="true" />
+                <element signature="e#3693#3699#0" expanded="true" />
+                <element signature="e#3748#3754#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +133,7 @@
         <option value="roman" />
       </list>
     </option>
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -143,8 +150,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-42" />
-    <option name="y" value="3" />
+    <option name="x" value="1" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -254,7 +260,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -460,11 +466,23 @@
       <created>1424646217458</created>
       <updated>1424646217458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test desctop">
+      <created>1424646257204</created>
+      <updated>1424646257204</updated>
+    </task>
+    <task id="LOCAL-00006" summary="merge&#10;&#10;Conflicts:&#10;&#9;AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java&#10;">
+      <created>1424647317259</created>
+      <updated>1424647317259</updated>
+    </task>
+    <task id="LOCAL-00007" summary="merge&#10;&#10;Conflicts:&#10;&#9;AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java&#10;">
+      <created>1424647389574</created>
+      <updated>1424647389574</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-42" y="3" width="1378" height="744" extended-state="0" />
+    <frame x="1" y="0" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -475,15 +493,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41080198" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41080198" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496329" sideWeight="0.58919805" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496329" sideWeight="0.6710311" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -503,7 +521,8 @@
     </option>
     <MESSAGE value="add getRealUsers(NUsersToGet)" />
     <MESSAGE value="test desctop" />
-    <option name="LAST_COMMIT_MESSAGE" value="test desctop" />
+    <MESSAGE value="merge&#10;&#10;Conflicts:&#10;&#9;AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge&#10;&#10;Conflicts:&#10;&#9;AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -522,7 +541,12 @@
     <entry file="file://$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="16" selection-start="4461" selection-end="4461" vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="5321">
-          <folding />
+          <folding>
+            <element signature="e#3197#3213#0" expanded="true" />
+            <element signature="e#3642#3648#0" expanded="true" />
+            <element signature="e#3693#3699#0" expanded="true" />
+            <element signature="e#3748#3754#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +570,12 @@
     <entry file="file://$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="13" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="5304">
-          <folding />
+          <folding>
+            <element signature="e#3197#3213#0" expanded="true" />
+            <element signature="e#3642#3648#0" expanded="true" />
+            <element signature="e#3693#3699#0" expanded="true" />
+            <element signature="e#3748#3754#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -563,7 +592,12 @@
     <entry file="file://$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="13" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="5304">
-          <folding />
+          <folding>
+            <element signature="e#3197#3213#0" expanded="true" />
+            <element signature="e#3642#3648#0" expanded="true" />
+            <element signature="e#3693#3699#0" expanded="true" />
+            <element signature="e#3748#3754#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -586,8 +620,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="908" selection-end="908" vertical-scroll-proportion="0.47663552" vertical-offset="153" max-vertical-offset="5338">
-          <folding />
+        <state line="36" column="26" selection-start="932" selection-end="932" vertical-scroll-proportion="0.5956873" vertical-offset="102" max-vertical-offset="5321">
+          <folding>
+            <element signature="e#3197#3213#0" expanded="true" />
+            <element signature="e#3642#3648#0" expanded="true" />
+            <element signature="e#3693#3699#0" expanded="true" />
+            <element signature="e#3748#3754#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
