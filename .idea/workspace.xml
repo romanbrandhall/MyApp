@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2101291-559d-4db9-836b-79bbf48cc7ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java" afterPath="$PROJECT_DIR$/AndroidVkSdkSample/src/com/perm/kate/api/sample/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android-VKontakte-SDK.iws" />
@@ -457,7 +456,11 @@
       <created>1424616861270</created>
       <updated>1424616861270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test desctop">
+      <created>1424646217458</created>
+      <updated>1424646217458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -499,7 +502,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="add getRealUsers(NUsersToGet)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add getRealUsers(NUsersToGet)" />
+    <MESSAGE value="test desctop" />
+    <option name="LAST_COMMIT_MESSAGE" value="test desctop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
