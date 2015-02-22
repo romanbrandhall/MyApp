@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
     
     Account account=new Account();
     Api api;
-//	public volatile ArrayList<User> myUsers=new ArrayList<User>();
+	public volatile ArrayList<User> myUsers=new ArrayList<User>();
 	public volatile User myUsr=new User();
     @Override
     public void onCreate(Bundle savedInstanceState) {
