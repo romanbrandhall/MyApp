@@ -32,8 +32,7 @@ public class MainActivity extends Activity {
     
     Account account=new Account();
     Api api;
-//	public volatile ArrayList<User> myUsers=new ArrayList<User>();
-    //myTestDecstop
+	//public volatile ArrayList<User> myUsers=new ArrayList<User>();
 	public volatile User myUsr=new User();
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -136,7 +135,6 @@ public class MainActivity extends Activity {
 		for(int i1=0;i1<NcircleMaxInt;i1++){
 			currUsersReal.clear();
 			currUsers.clear();
-            //test push
 			try{
 				currUsers = api.searchUser(Constants.q, Constants.fields, Count, Constants.offset,Constants.sort,
 									   Constants.city,Constants.country,Constants.hometown,
@@ -181,7 +179,7 @@ public class MainActivity extends Activity {
 		common.writeKeyValuePairsToFile(myMap, fileName);
 		//myEditText1.setText("Nreal="+currUsersReal.size()+" Nusers="+currUsers.size()+" count="+Count);
 		//Toast.makeText(getApplicationContext(), ""+currUsers.get(0).uid, Toast.LENGTH_LONG).show();
-		myEditText1.setText(BirthDay+"."+BirthMonth+"."+BirthYear+" finded="+usersRealFinded.size()+" Nreal="+currUsersReal.size()+" Nusers="+currUsers.size()+" count="+Count);
+		myEditText1.setText(BirthDay+"."+BirthMonth+"."+BirthYear+" Ufinded="+usersRealFinded.size()+" Nreal="+currUsersReal.size()+" Nusers="+currUsers.size()+" count="+Count);
 		currUsers=null;
 		currUsersReal=null;
 		
