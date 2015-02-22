@@ -179,7 +179,7 @@ public class MainActivity extends Activity {
 		common.writeKeyValuePairsToFile(myMap, fileName);
 		//myEditText1.setText("Nreal="+currUsersReal.size()+" Nusers="+currUsers.size()+" count="+Count);
 		//Toast.makeText(getApplicationContext(), ""+currUsers.get(0).uid, Toast.LENGTH_LONG).show();
-		myEditText1.setText(BirthDay+"."+BirthMonth+"."+BirthYear+" finded="+usersRealFinded.size()+" Nreal="+currUsersReal.size()+" Nusers="+currUsers.size()+" count="+Count);
+		myEditText1.setText(BirthDay+"."+BirthMonth+"."+BirthYear+" Ufinded="+usersRealFinded.size()+" Nreal="+currUsersReal.size()+" Nusers="+currUsers.size()+" count="+Count);
 		currUsers=null;
 		currUsersReal=null;
 		
