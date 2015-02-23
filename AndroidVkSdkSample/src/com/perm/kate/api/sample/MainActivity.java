@@ -189,7 +189,10 @@ public class MainActivity extends Activity {
 	
 	private void startMyButtonActivity1(){
 		ArrayList<User> Nusers = new ArrayList<User>();
-		Nusers=getNRealVkUsers(100);
+        myEditText1.setText("100");
+        String NUsersStr = myEditText1.getText().toString();
+        int Nusr = Integer.parseInt(NUsersStr);
+        if(Nusr>0) Nusers=getNRealVkUsers(Nusr);
 		String root = Environment.getExternalStorageDirectory().toString();
 		File myDir = new File(root + "/MyFolder");  
 		String fileName=myDir+"/Users.txt";
