@@ -189,7 +189,6 @@ public class MainActivity extends Activity {
 	
 	private void startMyButtonActivity1(){
 		ArrayList<User> Nusers = new ArrayList<User>();
-        myEditText1.setText("100");
         String NUsersStr = myEditText1.getText().toString();
         int Nusr = Integer.parseInt(NUsersStr);
         if(Nusr>0) Nusers=getNRealVkUsers(Nusr);
@@ -353,6 +352,7 @@ public class MainActivity extends Activity {
             messageEditText.setVisibility(View.GONE);
 			myButton1.setVisibility(View.GONE);
 			myEditText1.setVisibility(View.GONE);
+			myEditText1.setText("100");
         }
     }//showButtons
 }
