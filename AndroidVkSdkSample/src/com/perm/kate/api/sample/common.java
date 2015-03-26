@@ -21,13 +21,13 @@ import java.util.Iterator;
 
 public class common
 {
-	public static void writeStringToFile(String FileName, String str, boolean append){
+	public static boolean writeStringToFile(String FileName, String str, boolean append){
 		try{
 			PrintWriter out=new PrintWriter(new BufferedWriter(new FileWriter(FileName, append)));
 			out.print(str);
 			out.close();
-			}catch(Exception e){
-				}
+			return true;
+			}catch(Exception e){return false;}
 	}//writeStringToFile
 	public static String readFileToString(String fileName){
 		String ret="";
@@ -38,6 +38,43 @@ public class common
 			fin.close();
 		}catch(Exception e){}
 		return ret;
+	}
+	public static ArrayList<String> ReadFileToArray(String FileName){
+		ArrayList<String> ret=new ArrayList<String>();
+		try{
+			BufferedReader br = new BufferedReader(new FileReader(FileName));
+			String line="";
+			while ((line = br.readLine()) != null) {
+				if(line.length()>0) ret.add(line);
+				// process the line.
+			}
+			br.close();
+		}
+		catch(IOException ex){}
+		return ret;
+	}
+	public static boolean WriteArrayListToFile(ArrayList<String> Lines, String FileName, boolean append){
+		if(Lines.size()==0) return false;
+		try{
+			PrintWriter out;
+			if(!append){
+				out=new PrintWriter(new BufferedWriter(new FileWriter(FileName, append)));
+				out.print("");
+				out.close();
+				}
+			
+			out=new PrintWriter(new BufferedWriter(new FileWriter(FileName, true)));
+			int i=0;
+			for(i=0;i<Lines.size()-1;i++){
+				if(Lines.get(i).length()>0)
+				out.print(Lines.get(i)+"\n");
+			}
+			i=Lines.size()-1;
+			if(Lines.get(i).length()>0)
+			out.print(Lines.get(i));
+			out.close();
+			return true;
+		}catch(Exception e){return false;}
 	}
 	public static String convertStreamToString(InputStream is) throws Exception{
 		BufferedReader reader=new BufferedReader(new InputStreamReader(is));
@@ -70,10 +107,19 @@ public class common
 		fileContent=null;
 		return ret;
 	}
-	public static void writeKeyValuePairsToFile(Map<String, String> keyValPairs, String fileName){
-		writeStringToFile(fileName, "", false);
+	public static boolean writeKeyValuePairsToFile(Map<String, String> keyValPairs, String fileName){
+		if(!writeStringToFile( fileName, "", false)) return false;
+		try{
+			PrintWriter out=new PrintWriter(new BufferedWriter(new FileWriter(fileName, true)));
+			for(Map.Entry <String, String> entr : keyValPairs.entrySet()){
+				out.print("START_"+entr.getKey()+"="+entr.getValue()+"_END\n");
+			}
+			out.close();
+			return true;
+		}catch(Exception e){return false;}
+		/*
 		for(Map.Entry <String, String> entr : keyValPairs.entrySet()){
-			writeStringToFile(fileName, "START_"+entr.getKey()+"="+entr.getValue()+"_END\n", true);
-		}
+			res=writeStringToFile(fileName, "START_"+entr.getKey()+"="+entr.getValue()+"_END\n", true);
+		}*/
 	}//writeKeyValuePairsToFile
 }

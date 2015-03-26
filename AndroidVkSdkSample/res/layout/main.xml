@@ -21,11 +21,11 @@
 		android:id="@+id/post"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="Отправить запись на стену"/>
+		android:text="process users"/>
 
 	<Button
 		android:layout_height="wrap_content"
-		android:text="myButton1"
+		android:text="get users"
 		android:layout_width="fill_parent"
 		android:id="@+id/myButton1"/>
 
